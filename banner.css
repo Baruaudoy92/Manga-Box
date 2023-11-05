@@ -1,0 +1,55 @@
+.banner-1{
+    width: 55%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.details{
+    width: 50%;
+    font-size: 60px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(169, 150, 23);
+}
+.search{
+  padding: 15px;
+  font-size: 17px;
+  border: 1px solid rgb(255, 255, 255);
+  width: 25%;
+  background: #231b27;
+  margin-left: 0px;
+  border-radius: 10px;
+  font-family: 'Bungee', sans-serif;
+}
+.search:hover{
+    background-color: rgb(45, 84, 7);
+}
+.btn-sea{
+    width: 100%;
+    object-fit: cover;
+    background-color: rgb(255, 255, 255);
+    color: #231b27;
+    font-weight: 700;
+    font-family: 'Bungee', sans-serif;
+}
+.span{
+    color: rgb(61, 165, 42);
+    font-family: 'Pixelify Sans', sans-serif;
+}
+.lorem{
+    color: rgb(230, 202, 236);
+    font-family: 'Foldit', sans-serif;
+
+}
+
+@media (max-width: 475px) {
+    .search {
+      width: 250px; 
+    }
+    
+    .details {
+      font-size: 80px;
+  }
+  .lorem{
+    width: 700px;
+    color: rgb(10, 58, 58);
+    font-family: 'Foldit', sans-serif;
+}
+}

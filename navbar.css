@@ -1,0 +1,78 @@
+.navbar{   
+    width: 100%; 
+    object-fit: cover;
+    height: 70px;
+    display: flex;
+    position: sticky;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+
+}
+.navbar {
+  background-color: #231b27;
+  border-radius: 5px;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: -40px;
+    margin-top: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(239, 235, 7, 0.943);
+    text-decoration: none;
+    font-family: 'Pixelify Sans', sans-serif;
+  }
+  .logo:hover {
+    background-color: rgb(16, 12, 50);
+    color:rgb(177, 44, 124);
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', 
+}
+  .nav{
+    width: 120%;
+    margin-left: 115px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navItems{
+    display: block;
+    text-decoration: none;
+    margin-left: 25px;
+    color: rgb(230, 229, 230);
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Pixelify Sans', sans-serif;
+  }
+  .navItems:hover {
+    background-color: rgb(36, 35, 44);
+    color:rgb(177, 44, 124);
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', 
+}
+
+
+/* Media query for iPhones (typical portrait mode) */
+@media (max-width: 475px) {
+  .navbar {
+    height: 80px;
+    width: 1170px;
+  }
+
+  .logo {
+    font-size: 40px;
+    margin-top: 5px;
+  }
+
+  .navItems {
+    font-size: 30px;
+    margin-top: -15px;
+    margin-left: -30px;
+    margin-right: 20px; 
+  }
+}
